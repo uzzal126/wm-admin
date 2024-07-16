@@ -1,0 +1,64 @@
+.theme-img {
+    padding: 20px;
+    position: relative;
+    background-size: 100% 100%;
+    &.desktop {
+        // background-image: url('/media/themes/Laptop.png');
+        padding: 20px 43px 55px;
+        max-width: 600px;
+    }
+    &.mobile {
+        // background-image: url('/media/themes/Mobile.png');
+        padding: 14px;
+        max-height: 400px;
+        max-width: 213px;
+    }
+}
+
+.live-demo-btn {
+    text-decoration: none;
+    color: var(--kt-text-dark);
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: 1px solid var(--kt-text-dark);
+}
+
+.live-demo-btn:hover {
+    text-decoration: none;
+    color: #009ef7;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: 1px solid #009ef7;
+}
+
+.install-btn {
+    text-decoration: none;
+    background-color: #009ef7;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: none !important;
+    color: white;
+}
+
+.customize-btn {
+    text-decoration: none;
+    background-color: #f1416c;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: none !important;
+    color: white;
+}
+
+.custom-row {
+    min-width: 770px !important;
+}
+
+@media (max-width: 600px) {
+    .custom-row {
+        min-width: 390px !important;
+    }
+}
+
+.custom-430 img {
+    height: 430px !important;
+}

@@ -1,0 +1,30 @@
+export const pageBreadCrumbs = (active) => [
+  // {
+  //   title: 'Order List',
+  //   path: '/orders/index',
+  //   activeClasses: 'btn-dark',
+  //   classes: 'btn-light-primary',
+  //   icon: 'fas fa-back',
+  //   isActive: active === 'orders',
+  //   access: 'Order List',
+  //   group: 'orders',
+  // },
+  // {
+  //   title: 'Create Order',
+  //   path: '/orders/custom',
+  //   activeClasses: '',
+  //   classes: 'btn-light-primary',
+  //   icon: 'fas fa-plus',
+  //   isActive: active === 'create',
+  //   access: 'Order Create',
+  //   group: 'orders',
+  // },
+  // {
+  //   title: 'Customized Request',
+  //   path: '/orders/request',
+  //   activeClasses: 'btn-dark',
+  //   classes: 'btn-light-info',
+  //   icon: '',
+  //   isActive: active === 'request',
+  // },
+]

@@ -1,0 +1,28 @@
+.builder {
+    &-body {
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+    }
+    &-pageContainer {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+    }
+
+    &-page {
+        flex: 1 1 auto;
+        max-height: 100%;
+        overflow: auto;
+    }
+    &-columns {
+        display: flex;
+    }
+    &-column {
+        flex: 1 1 100%;
+    }
+}
+
+.columnContainer {
+    display: flex;
+}

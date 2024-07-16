@@ -1,0 +1,17 @@
+services:
+  admin.webmanza.com.3030:
+    image: admin.webmanza.com
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '3030:80'
+    container_name: admin.webmanza.com.3030
+  admin.webmanza.com.3031:
+    image: admin.webmanza.com
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '3031:80'
+    container_name: admin.webmanza.com.3031

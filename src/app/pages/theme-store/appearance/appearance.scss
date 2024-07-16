@@ -1,0 +1,31 @@
+.theme-img {
+    padding: 20px;
+    position: relative;
+    background-size: 100% 100%;
+    &.desktop {
+        // background-image: url('/media/themes/Laptop.png');
+        padding: 20px 43px 55px;
+        max-width: 600px;
+    }
+    &.mobile {
+        // background-image: url('/media/themes/Mobile.png');
+        padding: 14px;
+        max-height: 400px;
+        max-width: 213px;
+    }
+}
+
+
+.custom-row{
+    min-width: 770px !important;
+}
+
+@media (max-width: 600px) {
+    .custom-row{
+        min-width: 390px !important;
+    }
+}
+
+.custom-430 img {
+    height: 430px !important;
+}
